@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff; /* Navbar background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff; /* Navbar brand text color */
+}
+
+.navbar-toggler-icon {
+    border-color: #007bff; /* Navbar toggle icon color */
+}
+
+.nav-link {
+    color: #495057; /* Navbar link text color */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 56px; /* Adjust based on your header height */
+    left: 0;
+    height: 100%;
+    width: 220px;
+    padding-top: 56px; /* Adjust based on your header height */
+    background-color: #ffffff; /* Sidebar background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 56px; /* Adjust based on your header height */
+    height: calc(100% - 56px);
+    padding-top: 20px;
+    overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+.nav.flex-column {
+    margin-bottom: 20px;
+}
+
+.nav-link.active {
+    background-color: #007bff; /* Active link background color */
+    color: #fff; /* Active link text color */
+}
+
+/* Main Content Styles */
+.main {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background-color: #ffffff; /* Jumbotron background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ffffff; /* Footer background color */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Main Content Styles */
+main {
+    padding-top: 20px;
+    margin-left: 220px; /* Width of the sidebar */
+}
+
+.jumbotron {
+    background-color: #ffffff; /* Jumbotron background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners to the jumbotron */
+}
+
+.display-4 {
+    color: #007bff; /* Jumbotron title text color */
+}
+
+/* Content Section Styles */
+.container .row {
+    margin-bottom: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff; /* Section title text color */
+}
+
+.card {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border: none; /* Remove card border */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Optional: Add rounded corners to the top-left of the card image */
+    border-top-right-radius: 10px; /* Optional: Add rounded corners to the top-right of the card image */
+}
+
+.card-body {
+    background-color: #ffffff; /* Card body background color */
+}
+
+.card-text {
+    color: #495057; /* Card text color */
+}
+
+/* Optional: Style the buttons inside the cards */
+.btn-outline-primary {
+    color: #007bff; /* Button text color */
+    border-color: #007bff; /* Button border color */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Button hover background color */
+    color: #fff; /* Button text color on hover */
+}
+
+/* Media Query for Small Devices */
+@media (max-width: 992px) {
+    main {
+        margin-left: 0;
+    }
+}
