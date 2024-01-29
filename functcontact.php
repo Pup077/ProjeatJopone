@@ -21,7 +21,7 @@ class DB_god
 
     public function contact($cemail, $ctextone, $ctexttwo)
     {
-        $reg = mysqli_query($this->dbgod, "INSERT INTO contact(email, contextone, ั) 
+        $reg = mysqli_query($this->dbgod, "INSERT INTO contact(email, contextone, contexttwo) 
         VALUES('$cemail', '$ctextone', '$ctexttwo')");
         return $reg;
     }
