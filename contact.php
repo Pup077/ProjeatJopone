@@ -2,18 +2,18 @@
 session_start();
 include("./functcontact.php");
 
-$contactdata = NEW DB_god();
+$contactdata = new DB_god();
 
 if (isset($_POST['submit'])) {
     $cemail = $_POST['email'];
     $ctextone = $_POST['contextone'];
     $ctexttwo = $_POST['contexttwo'];
-    
+
 
     $sql = $contactdata->contact($cemail, $ctextone, $ctexttwo);
 
     if ($sql) {
-        echo "<script>alert('ส่งข้อมูลสำเร็จ');</script>";     
+        echo "<script>alert('ส่งข้อมูลสำเร็จ');</script>";
     } else {
         echo "<script>alert('ส่งข้อมูลไม่สำเร็จกรุณาลองใหม่อีกครั้ง');</script>";
     }
@@ -32,7 +32,25 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Add an image to the head section (favicon) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/01.png" type="image/png">
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+            background-color: #bdbdbd;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
 
 <body>
 
@@ -72,7 +90,7 @@ if (isset($_POST['submit'])) {
                         <a href="./contact.php" class="nav-link">ติดต่อ</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบผู้ดูแล</a>
+                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>

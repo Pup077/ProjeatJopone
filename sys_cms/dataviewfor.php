@@ -116,12 +116,12 @@ if ($_SESSION['id'] == "") {
 
             <!-- Content Section -->
             <div class="card bg-white text-white">
-                <a href="../from5.php" target="_blank">
-                    <img class="card-img" src="../img/02.png " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                <a href="../from13.php" target="_blank">
+                    <img class="card-img" src="../img/16.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                     <div class="card-img-overlay">
-                        <h1 class="card-title">ป้องกันไวรัส</h1>
+                        <h1 class="card-title">CPU</h1>
                         <h3>
-                            <p class="card-text">การป้องกันไวรัส</p>
+                            <p class="card-text">CPU คืออะไร</p>
                         </h3>
                         <h4>ดูเนื้อหา</>
                         </h4>
@@ -129,12 +129,12 @@ if ($_SESSION['id'] == "") {
                     <br>
                     <div class="card bg-white text-white">
                         <div class="card bg-white text-white">
-                            <a href="../from6.php" target="_blank">
-                                <img class="card-img" src="../img/09.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                            <a href="../from14.php" target="_blank">
+                                <img class="card-img" src="../img/17.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                                 <div class="card-img-overlay">
-                                    <h1 class="card-title">ชนิดของคอมพิวเตอร์</h1>
+                                    <h1 class="card-title">ซอฟต์แวร์</h1>
                                     <h3>
-                                        <p class="card-text">ชนิดของคอมพิวเตอร์มีอะไรบ้าง</p>
+                                        <p class="card-text">ซอฟต์แวร์ คืออะไร</p>
                                     </h3>
                                     <h4>ดูเนื้อหา</>
                                     </h4>
@@ -142,20 +142,20 @@ if ($_SESSION['id'] == "") {
                                 <br>
                                 <div class="card bg-white text-white">
                         <div class="card bg-white text-white">
-                            <a href="../from8.php" target="_blank">
-                                <img class="card-img" src="../img/12.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                            <a href="../from16.php" target="_blank">
+                                <img class="card-img" src="../img/18.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                                 <div class="card-img-overlay">
-                                    <h1 class="card-title">ซุปเปอร์คอมพิวเตอร์</h1>
+                                    <h1 class="card-title">ลำโพง</h1>
                                     <h3>
-                                        <p class="card-text">ซุปเปอร์คอมพิวเตอร์ คืออะไร</p>
+                                        <p class="card-text">ลำโพง คืออะไร</p>
                                     </h3>
                                     <h4>ดูเนื้อหา</>
                                     </h4>
                                 </div>
                         </div>
-                        <p><a href="./dataviewthr.php" class="btn btn-primary">หน้าต่อไป</a>
+                        <p><a href="./dataviewfiv.php" class="btn btn-primary">หน้าต่อไป</a>
                             <br>
-                        <p><a href="./dataview.php" class="btn btn-primary">กลับ</a>
+                        <p><a href="./dataviewthr.php" class="btn btn-primary">กลับ</a>
                             <br>
                             <br>
 

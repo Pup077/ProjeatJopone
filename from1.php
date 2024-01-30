@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("./sys_cms/connect.php");
+
 ?>
 
 
@@ -16,7 +17,25 @@ include("./sys_cms/connect.php");
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom1.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/01.png" type="image/png">
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+            background-color: #80cbc4;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
 
 <body>
 
@@ -56,7 +75,7 @@ include("./sys_cms/connect.php");
                         <a href="./contact.php" class="nav-link">ติดต่อ</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบผู้ดูแล</a>
+                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
@@ -81,8 +100,8 @@ include("./sys_cms/connect.php");
             </div>
         </div>
     </header>
-    <br> 
-    
+    <br>
+
     <!-- Body -->
 
     <body>
@@ -131,13 +150,14 @@ include("./sys_cms/connect.php");
                     <a href="./index.php" class="btn btn-primary btn-lg btn-block">
                         <- หน้าแรก</a>
                             <br>
-                         
+
                             <!-- Footer -->
                             <footer class="bg-light">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12 text-center">
-                                            <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช.</p>
+                                            <p class="text-muted">&copy; จัดทำโดย นายอดิเทพ ชลสิทธิ์ และ
+                                                นางสาวอนุตรา ดารามัน. </p>
                                         </div>
                                     </div>
                                 </div>

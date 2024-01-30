@@ -15,10 +15,27 @@ if ($_SESSION['id'] == "") {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>จัดการระบบเว็ป</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/customcms.css">
         <link rel="icon" href="../img/01.png" type="image/png">
     </head>
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
 
     <body>
 
@@ -58,7 +75,7 @@ if ($_SESSION['id'] == "") {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="./dataview.php">
                                     หน้ารวมข้อมูล
                                 </a>
                             </li>
@@ -70,7 +87,7 @@ if ($_SESSION['id'] == "") {
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="./editfromone.php">หน้า 1</a>
                                     <a class="dropdown-item" href="./editfromtwo.php">หน้า 2</a>
-                                    <a class="dropdown-item" href="#">หน้า 3</a>
+                                    <a class="dropdown-item" href="./editfromthree.php">หน้า 3</a>
                                     <!-- Add more dropdown items as needed -->
                                 </div>
                             </li>

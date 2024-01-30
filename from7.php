@@ -24,7 +24,7 @@ include("./sys_cms/connect.php");
     <style>
         body {
             font-family: "Itim", cursive;
-            background-color: #80deea;
+            background-color: #f48fb1;
         }
 
         h1 {
@@ -99,40 +99,25 @@ include("./sys_cms/connect.php");
     <div class="container">
         <div class="card-deck">
             <div class="card">
-                <?php
-                // Check if there are records
-                if (!empty($cmsthrRecords)) {
-                    // Include a link to the detailed view
-                    echo '<a href="./from4.php">';
-                    echo '<img class="card-img-top" src="' . $cmsthrRecords[0]['fthrimg'] . '" width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">';
-                    echo '</a>';
-                } else {
-                    echo '<p>No records found.</p>';
-                }
-                ?>
-                <div class="card-body">
-                    <?php
-                    // Check if there are records
-                    if (!empty($cmsthrRecords)) {
-                        echo '<h5 class="card-title">' . $cmsthrRecords[0]['fthrone'] . '</h5>';
-                        // Reduce the number of characters displayed for fthrtwo
-                        echo '<p class="card-text">' . substr($cmsthrRecords[0]['fthrtwo'], 0, 150) . '...</p>';
-                        echo '</a>';
-                    } else {
-                        echo '<p>No records found.</p>';
-                    }
-                    ?>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+                <a href="./from8.php" style="color: black;">
+                    <img class="card-img-top" src="./img/12.jpg" width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="card-title">ซูเปอร์คอมพิวเตอร์คืออะไร</h5>
+
+                        <p class="card-text"> ถือได้ว่าเป็นคอมพิวเตอร์ที่มีความเร็วมากและมีประสิทธิภาพสูงสุดเมื่อเปรียบเทียบกับคอมพิวเตอร์ชนิดอื่น ๆ ...</p>
+
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
             </div>
 
 
             <div class="card">
-                <a href="./from5.php" style="color: black;">
-                    <img class="card-img-top" src="./img/02.png " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                <a href="./from9.php" style="color: black;">
+                    <img class="card-img-top" src="./img/13.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">การป้องกันไวรัส</h5>
-                        <p class="card-text">วิธีการป้องกัน ไวรัสคอมพิวเตอร์</p>
+                        <h5 class="card-title">แป้นพิมพ์ คืออะไร</h5>
+                        <p class="card-text">แป้นพิมพ์ หรือ คีย์บอร์ด (keyboard) ประกอบด้วยปุ่มตัวอักษร ตัวเลข และสัญลักษณ์ต่างๆ เพื่อให้คุณสามารถใส่ข้อมูลเข้าสู่คอมพิวเตอร์ แป้นพิมพ์เป็นอุปกรณ์รับข้อมูลเบื้องต้น </p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
             </div>
@@ -140,11 +125,11 @@ include("./sys_cms/connect.php");
 
 
             <div class="card">
-                <a href="./from6.php" style="color: black;">
-                    <img class="card-img-top" src="./img/09.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                <a href="./from10.php" style="color: black;">
+                    <img class="card-img-top" src="./img/14.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">ชนิดของคอมพิวเตอร์</h5>
-                        <p class="card-text"> คอมพิวเตอร์ในรุ่นปัจจุบันก็ยังถือว่าอยู่ในคอมพิวเตอร์รุ่นที่ ๔ นี้ ในปัจจุบันคอมพิวเตอร์ได้ใช้วงจรเบ็ดเสร็จขนาดใหญ่มาก (very large scale integrated circuit) </p>
+                        <h5 class="card-title">ฮาร์ดดิส คืออะไร</h5>
+                        <p class="card-text"> ฮาร์ดดิสก์ หรือ จานบันทึกแบบแข็ง (อังกฤษ: hard disk drive) คือ อุปกรณ์คอมพิวเตอร์ที่บรรจุข้อมูลแบบไม่ลบเลือน มีลักษณะเป็นจานโลหะที่เคลือบด้วยสารแม่เหล็กซึ่งหมุนอย่างรวดเร็วเมื่อทำงาน </p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
             </div>
@@ -157,8 +142,8 @@ include("./sys_cms/connect.php");
 
 
     <div class="text-center">
-        <p><a href="./index.php" class="btn btn-primary" style="width:1300px;"><- หน้าแรก</a> </p>
-        <a href="./from7.php" class="btn btn-primary" style="width:1300px;">ต่อไป -></a>
+        <p><a href="./from3.php" class="btn btn-primary" style="width:1300px;"><- ก่อนหน้า</a> </p>
+        <a href="./from11.php" class="btn btn-primary" style="width:1300px;">ต่อไป -></a>
 
         <br>
         <br>

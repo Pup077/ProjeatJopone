@@ -16,8 +16,26 @@ include("./sys_cms/connect.php");
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom6.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/01.png" type="image/png">
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+            background-color: #e1bee7;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
+
 
 <body>
 
@@ -57,7 +75,7 @@ include("./sys_cms/connect.php");
                         <a href="./contact.php" class="nav-link">ติดต่อ</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบผู้ดูแล</a>
+                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +87,7 @@ include("./sys_cms/connect.php");
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h3 style="font-size:600%; color:#dadada;">ชนิดของคอมพิวเตอร์</h3>';
+                    <h3 style="font-size:600%; color:#ffa726;">ชนิดของคอมพิวเตอร์</h3>
                 </div>
             </div>
             </form>
@@ -99,12 +117,12 @@ include("./sys_cms/connect.php");
         <div class="row gy-5">
             <div class="col-12">
                 <br>
-                <h5 style="font-size:110%;"><b> คอมพิวเตอร์ในรุ่นปัจจุบันก็ยังถือว่าอยู่ในคอมพิวเตอร์รุ่นที่ ๔ นี้ ในปัจจุบันคอมพิวเตอร์ได้ใช้วงจรเบ็ดเสร็จขนาดใหญ่มาก (very large scale integrated circuit) ซึ่งสามารถบรรจุทรานซิสเตอร์ได้มากกว่าสิบล้านตัว เราสามารถแบ่งคอมพิวเตอร์ในรุ่นปัจจุบันออกเป็น ๔ ประเภทดังต่อไปนี้
+                <h5 style="font-size:130%;"><b> <p> คอมพิวเตอร์ในรุ่นปัจจุบันก็ยังถือว่าอยู่ในคอมพิวเตอร์รุ่นที่ ๔ นี้ ในปัจจุบันคอมพิวเตอร์ได้ใช้วงจรเบ็ดเสร็จขนาดใหญ่มาก (very large scale integrated circuit) ซึ่งสามารถบรรจุทรานซิสเตอร์ได้มากกว่าสิบล้านตัว เราสามารถแบ่งคอมพิวเตอร์ในรุ่นปัจจุบันออกเป็น ๔ ประเภทดังต่อไปนี้ </p>
 
-                        ซูเปอร์คอมพิวเตอร์ (supercomputer)
-                        เมนเฟรมคอมพิวเตอร์ (mainframe computer)
-                        มินิคอมพิวเตอร์ (minicomputer)
-                        ไมโครคอมพิวเตอร์ (microcomputer) หรือ พีซี (personal computer หรือ PC )</h5>
+                        <p>ซูเปอร์คอมพิวเตอร์ (supercomputer)</p>
+                        <p>เมนเฟรมคอมพิวเตอร์ (mainframe computer)</p>
+                        <p>มินิคอมพิวเตอร์ (minicomputer)</p>
+                        <p>ไมโครคอมพิวเตอร์ (microcomputer) หรือ พีซี (personal computer หรือ PC )</p></h5>
                 <br>
                 <a href="./from3.php" class="btn btn-primary btn-lg btn-block"><- หน้าแรก</a> </p>
 
@@ -114,7 +132,8 @@ include("./sys_cms/connect.php");
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 text-center">
-                                        <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช.</p>
+                                        <p class="text-muted">&copy; จัดทำโดย นายอดิเทพ ชลสิทธิ์ และ
+                                            นางสาวอนุตรา ดารามัน. </p>
                                     </div>
                                 </div>
                             </div>

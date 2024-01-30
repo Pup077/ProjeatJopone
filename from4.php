@@ -16,8 +16,26 @@ include("./sys_cms/connect.php");
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom4.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/01.png" type="image/png">
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+            background-color: #c5e1a5;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
+
 
 <body>
 
@@ -57,7 +75,7 @@ include("./sys_cms/connect.php");
                         <a href="./contact.php" class="nav-link">ติดต่อ</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบผู้ดูแล</a>
+                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +90,7 @@ include("./sys_cms/connect.php");
                     <?php
                     // Check if there are records
                     if (!empty($cmsthrRecords)) {
-                        echo '<h3 style="font-size:600%; color:#dadada;">' . $cmsthrRecords[0]['fthrname'] . '</h3>';
+                        echo '<h3 style="font-size:600%; color:#ffca28;">' . $cmsthrRecords[0]['fthrname'] . '</h3>';
                     } else {
                         echo '<p>No records found.</p>';
                     }
@@ -128,26 +146,27 @@ include("./sys_cms/connect.php");
                     echo '<p>No records found.</p>';
                 }
                 ?>
-           
-            <br>
-            <a href="./from3.php" class="btn btn-primary btn-lg btn-block"><- หน้าแรก</a> </p>
-              
-                    <br>
-                    <!-- Footer -->
-                    <footer class="bg-light">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช.</p>
+
+                <br>
+                <a href="./from3.php" class="btn btn-primary btn-lg btn-block"><- หน้าแรก</a> </p>
+
+                        <br>
+                        <!-- Footer -->
+                        <footer class="bg-light">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <p class="text-muted">&copy; จัดทำโดย นายอดิเทพ ชลสิทธิ์ และ
+                                            นางสาวอนุตรา ดารามัน. </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </footer>
+                        </footer>
 
 
-                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

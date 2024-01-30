@@ -31,9 +31,27 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ลงทะเบียนผู้ดูแล</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="icon" href="../img/01.png" type="image/png">
 </head>
+
+<style>
+    body {
+        font-family: "Itim", cursive;
+        background-color: #F5EED8;
+    }
+
+    h1 {
+        font-family: "Itim", cursive;
+    }
+
+    h2 {
+        font-family: "Itim", cursive;
+    }
+</style>
 
 <body>
 
@@ -122,7 +140,7 @@ if (isset($_POST['submit'])) {
         }
     </script>
 
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>

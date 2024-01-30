@@ -116,12 +116,12 @@ if ($_SESSION['id'] == "") {
 
             <!-- Content Section -->
             <div class="card bg-white text-white">
-                <a href="../from5.php" target="_blank">
-                    <img class="card-img" src="../img/02.png " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                <a href="../from17.php" target="_blank">
+                    <img class="card-img" src="../img/03.png " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                     <div class="card-img-overlay">
-                        <h1 class="card-title">ป้องกันไวรัส</h1>
+                        <h1 class="card-title">ไวรัสคอมพิวเตอร์</h1>
                         <h3>
-                            <p class="card-text">การป้องกันไวรัส</p>
+                            <p class="card-text">ไวรัสคอมพิวเตอร์ มีอะไรบ้าง</p>
                         </h3>
                         <h4>ดูเนื้อหา</>
                         </h4>
@@ -129,51 +129,40 @@ if ($_SESSION['id'] == "") {
                     <br>
                     <div class="card bg-white text-white">
                         <div class="card bg-white text-white">
-                            <a href="../from6.php" target="_blank">
-                                <img class="card-img" src="../img/09.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
+                            <a href="../from18.php" target="_blank">
+                                <img class="card-img" src="../img/19.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
                                 <div class="card-img-overlay">
-                                    <h1 class="card-title">ชนิดของคอมพิวเตอร์</h1>
+                                    <h1 class="card-title">จอภาพ</h1>
                                     <h3>
-                                        <p class="card-text">ชนิดของคอมพิวเตอร์มีอะไรบ้าง</p>
+                                        <p class="card-text">จอภาพ คืออะไร</p>
                                     </h3>
                                     <h4>ดูเนื้อหา</>
                                     </h4>
                                 </div>
-                                <br>
-                                <div class="card bg-white text-white">
-                        <div class="card bg-white text-white">
-                            <a href="../from8.php" target="_blank">
-                                <img class="card-img" src="../img/12.jpg " width="560" height="300" class="img-thumbnail" alt="Image" alt="Card image cap">
-                                <div class="card-img-overlay">
-                                    <h1 class="card-title">ซุปเปอร์คอมพิวเตอร์</h1>
-                                    <h3>
-                                        <p class="card-text">ซุปเปอร์คอมพิวเตอร์ คืออะไร</p>
-                                    </h3>
-                                    <h4>ดูเนื้อหา</>
-                                    </h4>
                                 </div>
-                        </div>
-                        <p><a href="./dataviewthr.php" class="btn btn-primary">หน้าต่อไป</a>
-                            <br>
-                        <p><a href="./dataview.php" class="btn btn-primary">กลับ</a>
-                            <br>
-                            <br>
+                               
 
-                            <!-- Footer -->
-                        <footer class="bg-light">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </footer>
+                                <p><a href="#" class="btn btn-primary">หน้าต่อไป</a>
+                                    <br>
+                                    <p><a href="./dataviewfor.php" class="btn btn-primary">กลับ</a>
+                                        <br>
+                                        <br>
+
+                                        <!-- Footer -->
+                                    <footer class="bg-light">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 text-center">
+                                                    <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </footer>
 
 
-                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 
     </html>

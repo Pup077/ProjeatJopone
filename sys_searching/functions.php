@@ -70,6 +70,33 @@ function handleButtonClick(id) {
     } else if (id === 5) {
         // Redirect to from3.php for ID 3
         window.location.href = '../from6.php';
+    } else if (id === 6) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from8.php';
+    } else if (id === 7) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from9.php';
+    } else if (id === 8) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from10.php';
+    } else if (id === 9) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from12.php';
+    } else if (id === 10) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from13.php';
+    } else if (id === 11) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from14.php';
+    } else if (id === 12) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from16.php';
+    } else if (id === 13) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from17.php';
+    } else if (id === 14) {
+        // Redirect to from3.php for ID 3
+        window.location.href = '../from18.php';
     } else {
         // Handle other cases or do nothing
         alert('Button clicked for id ' + id);

@@ -12,10 +12,10 @@ include("./sys_cms/connect.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>การป้องกันไวรัส</title>
+    <title>ชนิดของคอมพิวเตอร์</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom5.css">
+    <link rel="stylesheet" href="css/custom6.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@ include("./sys_cms/connect.php");
     <style>
         body {
             font-family: "Itim", cursive;
-            background-color: #f36c60;
+            background-color: #fff9c4;
         }
 
         h1 {
@@ -33,6 +33,14 @@ include("./sys_cms/connect.php");
 
         h2 {
             font-family: "Itim", cursive;
+        }
+
+        header {
+            background: url('./img/16.jpg') no-repeat center center;
+            background-size: cover;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+            height: 500px;
         }
     </style>
 
@@ -87,7 +95,7 @@ include("./sys_cms/connect.php");
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h3 style="font-size:600%; color:#6a1b9a;">ป้องกันไวรัส</h3>
+                    <h3 style="font-size:600%; color:#00695c;">CPU</h3>
                 </div>
             </div>
             </form>
@@ -101,14 +109,14 @@ include("./sys_cms/connect.php");
 
     <div class="text-center">
         <div class="content">
-            '<img src="./img/02.png" width="560" height="415" class="img-thumbnail" alt="Cinque Terre">
+            '<img src="./img/16.jpg" width="560" height="415" class="img-thumbnail" alt="Cinque Terre">
         </div>
         <br>
     </div>
 
     <div class="container">
         <div class="row">
-            <h3 style="color: rgb(0, 110, 201);">การป้องกันไวรัส</h3>
+            <h3 style="color: rgb(0, 110, 201);">CPU คืออะไร</h3>
         </div>
     </div>
 
@@ -117,27 +125,9 @@ include("./sys_cms/connect.php");
         <div class="row gy-5">
             <div class="col-12">
                 <br>
-                <h5 style="font-size:110%;">
-                    <p>วิธีการป้องกัน ไวรัสคอมพิวเตอร์</p>
-
-                    <p>ติดตั้งโปรแกรมป้องกันไวรัสและอัปเดตข้อมูลไวรัสอยู่เสมอ
-                    <p>- ติดตั้งโปรแกรมป้องกันไวรัสที่เหมาะสม
-                    <p>- สร้างแผ่น Emergency Disk เพื่อใช้ในการกู้ระบบ
-                    <p>- อัปเดตข้อมูลไวรัสของโปรแกรมทุกวัน หรือ ทุกครั้งที่โปรแกรมแจ้งเตือนให้อัปเดต
-                    <p>- เปิดใช้งาน auto-protect ถ้าโปรแกรมสนับสนุน
-                    <p>- ตรวจสอบหาไวรัสทุกครั้งก่อนเปิดไฟล์จากแผ่นหรือสื่อบันทึกข้อมูลต่าง ๆ
-                    <p>- ใช้โปรแกรมเพื่อทำการตรวจหาไวรัสบนเครื่องคอมพิวเตอร์อย่างน้อย 1 ครั้ง ต่อสัปดาห์
-
-                    <p>ติดตั้งโปรแกรมอุดช่องโหว่(patch) โดยการอัปเดตซอฟต์แวร์และโปรแกรมประยุกต์ต่าง ๆ ให้ใหม่อยู่เสมอ</p>
-                    <p>- ระบบปฏิบัติการ(OS) Windows , ระบบปฏิบัติการโปรแกรม Internet Explorer (IE) และโปรแกรม Microsoft Office เป็นต้น</p>
-
-                    <p>ปรับแต่งให้ซอฟต์แวร์ที่ใช้งานปลอดภัยสูงที่สุด</p>
-                    <p>- ปรับแต่งไม่ให้โปรแกรมที่ใช้อ่าน E-mail รันไฟล์แนบ(Attachment) โดยอัตโนมัติ</p>
-                    <p>- ถ้าใช้ Microsoft Office ไม่ควรอนุญาตให้รันมาโคร (macro)</p>
-                    <p>- ตั้งค่าระบบปฏิบัติการให้แสดงไฟล์ที่มีอยู่ทั้งหมด และแสดงนามสกุลของไฟล์ด้วยโดย ปรับ ค่าการทำงานที่ Folder Options ใน Tools ของ Windows Explorer</p>
-                </h5>
+                <h5 style="font-size:130%;"><b> CPU หรือหน่วยประมวลผลกลางเป็นส่วนประกอบฮาร์ดแวร์ที่เป็นหน่วยคำนวณหลักในเซิร์ฟเวอร์ เซิร์ฟเวอร์และอุปกรณ์อัจฉริยะอื่นๆ จะแปลงข้อมูลเป็นสัญญาณดิจิทัลและดำเนินการทางคณิตศาสตร์กับอุปกรณ์เหล่านั้น CPU เป็นองค์ประกอบหลักที่ประมวลผลสัญญาณและทำให้สามารถประมวลผลได้ ซึ่งทำหน้าที่เป็นสมองของอุปกรณ์ประมวลผลต่างๆ โดยจะดึงคำสั่งจากหน่วยความจำ ดำเนินการตามที่จำเป็น และส่งเอาต์พุตกลับไปยังหน่วยความจำ จัดการงานประมวลผลทุกประเภทที่จำเป็นสำหรับเรียกใช้ระบบปฏิบัติการและแอปพลิเคชันต่างๆ</h5>
                 <br>
-                <a href="./from3.php" class="btn btn-primary btn-lg btn-block"><- หน้าแรก</a> </p>
+                <a href="./from11.php" class="btn btn-primary btn-lg btn-block"><- กลับ</a> </p>
 
                         <br>
                         <!-- Footer -->

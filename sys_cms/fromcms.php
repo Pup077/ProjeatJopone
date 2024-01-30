@@ -15,10 +15,28 @@ if ($_SESSION['id'] == "") {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>จัดการระบบเว็ป</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/customcms.css">
         <link rel="icon" href="../img/01.png" type="image/png">
     </head>
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+    </style>
+
 
     <body>
 
@@ -107,7 +125,7 @@ if ($_SESSION['id'] == "") {
                             // Check if there are records
                             if (!empty($cmsRecords)) {
                                 echo '<img class="card-img-top" src="' . $cmsRecords[0]['fimg'] . '" width="560" height="200" class="img-thumbnail" alt="Image" alt="Card image cap">';
-                                echo '<a href="../from1.php">';
+                                echo '<a href="../from1.php" target="_blank">';
                                 echo '<div class="card-body">';
                                 echo '<p class="card-text">' . $cmsRecords[0]['fone'] . '</p>';
                                 echo '</div>';
@@ -125,7 +143,7 @@ if ($_SESSION['id'] == "") {
                             // Check if there are records
                             if (!empty($cmstwRecords)) {
                                 echo '<img class="card-img-top" src="' . $cmstwRecords[0]['ftwimg'] . '" width="560" height="200" class="img-thumbnail" alt="Image" alt="Card image cap">';
-                                echo '<a href="../from2.php">';
+                                echo '<a href="../from2.php" target="_blank">';
                                 echo '<div class="card-body">';
                                 echo '<p class="card-text">' . $cmstwRecords[0]['ftwone'] . '</p>';
                                 echo '</div>';
@@ -143,7 +161,7 @@ if ($_SESSION['id'] == "") {
                             // Check if there are records
                             if (!empty($cmsthrRecords)) {
                                 echo '<img class="card-img-top" src="' . $cmsthrRecords[0]['fthrimg'] . '"  width="560" height="200" class="img-thumbnail" alt="Image" alt="Card image cap">';
-                                echo '<a href="../from4.php">';
+                                echo '<a href="../from4.php" target="_blank">';
                                 echo '<div class="card-body">';
                                 echo  '<p class="card-text">' . $cmsthrRecords[0]['fthrone'] . '</p>';
                             } else {

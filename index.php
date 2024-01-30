@@ -16,7 +16,49 @@ include("./sys_cms/connect.php");
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Add an image to the head section (favicon) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/01.png" type="image/png">
+
+    <style>
+        body {
+            font-family: "Itim", cursive;
+
+        }
+
+        h1 {
+            font-family: "Itim", cursive;
+        }
+
+        h2 {
+            font-family: "Itim", cursive;
+        }
+
+        /* Style for the image Showcase section */
+        .showcase {
+            background-color: #80cbc4;
+            /* Set the background color */
+            padding: 0px 0;
+            /* Add padding for spacing */
+        }
+
+        /* Style for the Testimonials section */
+        .testimonials {
+            background-color: #afbfff;
+            /* Set the background color for testimonials section */
+            padding: 0px 0;
+            /* Add padding for spacing */
+        }
+
+        .onemore {
+            background-color: #81d4fa;
+            /* Set the background color for onemore section */
+            padding: 0px 0;
+            /* Add padding for spacing */
+        }
+    </style>
+
 
 <body>
 
@@ -56,7 +98,7 @@ include("./sys_cms/connect.php");
                         <a href="./contact.php" class="nav-link">ติดต่อ</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบผู้ดูแล</a>
+                        <a href="./sys_login/login.php" class="btn btn-outline-success">เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
@@ -161,41 +203,48 @@ include("./sys_cms/connect.php");
                 ?>
             </div>
         </div>
+    </section>
 
-        <div class="row g-0">
-            <?php
-            // Check if there are records
-            if (!empty($cmsRecords)) {
-                echo '<div class="col-lg-6 text-white showcase-img" style="background-image: url(' . $cmstwRecords[0]['ftwimg'] . ')">';
-            } else {
-                echo '<p>No records found.</p>';
-            }
-            ?>
-        </div>
-        <div class="col-lg-6 my-auto showcase-text">
-            <?php
-            // Check if there are records
-            if (!empty($cmstwRecords)) {
-                echo '<h2>' . $cmstwRecords[0]['ftwone'] . '</h2>';
-                echo '<p class="lead mb-0" style="max-height: 6em; overflow: hidden; text-overflow: ellipsis;">' . $cmstwRecords[0]['ftwtwo'] . '</p>  <h5>-><a href="./from2.php" style="color: black;">อ่านต่อ</a></f5>';
-            } else {
-                echo '<p>No records found.</p>';
-            }
-            ?>
-        </div>
-        </div>
-
-        <div class="row g-0">
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/05.jpg')">
+    <section class="testimonials">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <?php
+                // Check if there are records
+                if (!empty($cmsRecords)) {
+                    echo '<div class="col-lg-6 text-white showcase-img" style="background-image: url(' . $cmstwRecords[0]['ftwimg'] . ')">';
+                } else {
+                    echo '<p>No records found.</p>';
+                }
+                ?>
             </div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>เรื่องอื่นๆที่เกี่ยวข้อง</h2>
-                <p class="lead mb-0">ข้อมูลต่างๆ ที่จะทำให้คุณได้รู้และเข้าใจในเรื่องเทคโนโลยี -><a href="./from3.php" style="color: black;">ดู</a>
-                </p>
+            <div class="col-lg-6 my-auto showcase-text">
+                <?php
+                // Check if there are records
+                if (!empty($cmstwRecords)) {
+                    echo '<h2>' . $cmstwRecords[0]['ftwone'] . '</h2>';
+                    echo '<p class="lead mb-0" style="max-height: 6em; overflow: hidden; text-overflow: ellipsis;">' . $cmstwRecords[0]['ftwtwo'] . '</p>  <h5>-><a href="./from2.php" style="color: black;">อ่านต่อ</a></f5>';
+                } else {
+                    echo '<p>No records found.</p>';
+                }
+                ?>
             </div>
-        </div>
         </div>
     </section>
+
+    <section class="onemore">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/05.jpg')">
+                </div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>เรื่องอื่นๆที่เกี่ยวข้อง</h2>
+                    <p class="lead mb-0">ข้อมูลต่างๆ ที่จะทำให้คุณได้รู้และเข้าใจในเรื่องเทคโนโลยี -><a href="./from3.php" style="color: black;">ดู</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
 
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
@@ -228,6 +277,7 @@ include("./sys_cms/connect.php");
             </div>
         </div>
     </section>
+    <br>
 
     <!-- Call to Action -->
     <section class="call-to-action text-white text-center">
@@ -247,13 +297,14 @@ include("./sys_cms/connect.php");
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="text-muted">&copy; จัดทำโดย วิทยาลัยเทคนิคนครศรีธรรมราช. </p>
+                    <p class="text-muted">&copy; จัดทำโดย นายอดิเทพ ชลสิทธิ์ และ
+                        นางสาวอนุตรา ดารามัน. </p>
                 </div>
             </div>
         </div>
     </footer>
 
-    
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
